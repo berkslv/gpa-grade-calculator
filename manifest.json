@@ -1,0 +1,22 @@
+{
+  "short_name": "Üniversite ortalama",
+  "name": "Üniversite ortalama hesaplama",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon.svg",
+      "type": "image/svg",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "default_locale": "tr",
+  "start_url": "ana-sayfa",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary"
+}
