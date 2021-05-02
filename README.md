@@ -1,10 +1,12 @@
-# gpa-grade-calculator
+# Gpa Grade Calculator
 
 This repo is very straightforward example cordova mobile app using it create-react-app
 
 First of all, run `npx create-react-app client` who name is client. You can create whatever you desire inside this app, I was create a very simple GPA calculator, but make sure it's has responsive design. It may be better if it additionally has the PWA configurations.
 
 After creating the client, follow instructions below and publish your app in play store!
+
+You can visit mine [__Live Preview__](https://berkslv.github.io/gpa-grade-calculator)
 
 ## Client
 
@@ -17,7 +19,7 @@ npm start
 
 You need to add a few additions into react app for Cordova apps. If you are pass this step, you will see a white screen in `cordova run andorid` section
 
-#### Cordova TODOs
+#### Before Cordova
 
 - **Update your index.js**
   
