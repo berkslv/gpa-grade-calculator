@@ -1,4 +1,4 @@
-# GPA-grade-calculator
+# gpa-grade-calculator
 
 This repo is very straightforward example cordova mobile app using it create-react-app
 
@@ -17,9 +17,9 @@ npm start
 
 You need to add a few additions into react app for Cordova apps. If you are pass this step, you will see a white screen in `cordova run andorid` section
 
-### Cordova TODOs
+#### Cordova TODOs
 
-- Update your index.js
+- **Update your index.js**
   
 Update this,
 ```
@@ -50,7 +50,7 @@ if(!window.cordova) {
 
 ```
 
-- Edit package.json
+- **Edit package.json**
 
 Add the following line, before the `dependencies` section
   
@@ -61,11 +61,11 @@ Add the following line, before the `dependencies` section
 
 ```
 
-- If you using react-router-dom use HashRouter instead of BrowserRouter
+- **If you using react-router-dom use HashRouter instead of BrowserRouter**
    
 Don't worry this component also works well, but using another tech base.
 
-- To clear the confusion add /index.html to your home routes
+- **To clear the confusion add /index.html to your home routes**
 
 Maybe you don't need this. But there is no harm from a small addition.
 
@@ -120,7 +120,9 @@ if everything goes well you can create release build for production. This gives 
 cordova build --release 
 ```
 
-### Signing App
+<hr />
+
+## Signing the App
 
 we dont dive deep in this section. If you curious about app signing you can read this [documentation](https://developer.android.com/studio/publish/app-signing). Don't forget your `-alias` and `-keystore` names.
 
