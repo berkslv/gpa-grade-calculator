@@ -1,12 +1,12 @@
 # Gpa Grade Calculator
 
-This repo is very straightforward example cordova mobile app using it create-react-app
+This repo is very straightforward example and **guide** for **cordova mobile** app using it **create-react-app**
 
 First of all, run `npx create-react-app client` who name is client. You can create whatever you desire inside this app, I was create a very simple GPA calculator, but make sure it's has responsive design. It may be better if it additionally has the PWA configurations.
 
 After creating the client, follow instructions below and publish your app in play store!
 
-You can visit mine [__Live Preview__](https://berkslv.github.io/gpa-grade-calculator)
+You can visit [__Live Preview__](https://berkslv.github.io/gpa-grade-calculator)
 
 ## Client
 
@@ -96,6 +96,12 @@ cordova create gdp-calculator com.berkslv.gdpcalculator gdpcalculator # cordova 
  
 cd gdp-calculator/
 
+```
+
+Before making some developments make sure you satisfy cordova requirements
+
+```
+cordova requirements --verbose
 ```
 
 
