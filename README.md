@@ -21,6 +21,47 @@ You need to add a few additions into react app for Cordova apps. If you are pass
 
 #### Before Cordova
 
+- **Add some meta tags**
+
+Update your public/index.html file to following codes
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src * data: content:;"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"
+    />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Latest compiled and minified CSS -->
+    <title>Ortalama Hesaplama</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript" src="cordova.js"></script>
+  </body>
+</html>
+```
+
+
 - **Update your index.js**
   
 Update this,
