@@ -1,6 +1,11 @@
+
 # Gpa Grade Calculator
 
-This repo is very straightforward example and **guide** for **cordova mobile** app using it **create-react-app**
+This repo is very straightforward example and guide for **cordova mobile** app using **create-react-app**
+
+####  What can I make with cordova?
+
+There are many technologies for developing mobile applications, each solution has its pros and cons. I wanted to try cordova from these technologies. If you want to publish your website as an application in mobile markets, just read the following explanations.
 
 First of all, run `npx create-react-app client` who name is client. You can create whatever you desire inside this app, I was create a very simple GPA calculator, but make sure it's has responsive design. It may be better if it additionally has the PWA configurations.
 
@@ -173,7 +178,7 @@ cordova build --release
 
 ## Signing the App
 
-we dont dive deep in this section. If you curious about app signing you can read this [documentation](https://developer.android.com/studio/publish/app-signing). Don't forget your `-alias` and `-keystore` names.
+we dont dive deep in this section. If you curious about app signing you can read this [documentation](https://developer.android.com/studio/publish/app-signing). Just don't forget your `-alias` and `-keystore` names.
 
 ```
 keytool -genkey -v -keystore android.keystore -alias gdpcalculator-key -keyalg RSA -keysize 2048 -validity 10000
